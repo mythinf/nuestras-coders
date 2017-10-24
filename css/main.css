@@ -1,10 +1,11 @@
 body{
+
   text-align: center;
 }
-h1{
-  background: orange;
-  font-family: 'Lemon', cursive;
-  font-size: 50px;
+header{
+  background: #f9a91a;
+  font-family: 'Droid Sans Mono', monospace;
+  font-size: 30px;
 }
 section{
   /*outline: 1px solid red;*/
@@ -13,10 +14,6 @@ section{
   text-align: center;
   margin-left: 300px;
 }
-section:hover{
-  background: #fff;
-}
-
 div{
     display: inline-block;
 }
@@ -25,13 +22,14 @@ img{
   width: 200px;
   height: 200px;
   margin: 5px;
-  -webkit-filter: contrast(50%);
-  border-radius: 100px;
+  -webkit-filter: contrast(40%);
+  border-radius: 105px;
   border: 10px dotted #000000;
 }
 
 p{
-  background: orange;
+  font-family: 'Cinzel', serif;
+  background: #f9a91a;
   margin: 2px;
   padding: 0px;
   border-radius: 5px;
