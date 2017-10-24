@@ -12,7 +12,8 @@ section{
   width: 700px;
   height: 500;
   text-align: center;
-  margin-left: 300px;
+  margin: auto;
+
 }
 div{
     display: inline-block;
@@ -22,17 +23,25 @@ img{
   width: 200px;
   height: 200px;
   margin: 5px;
-  -webkit-filter: contrast(40%);
-  border-radius: 105px;
+  /*-webkit-filter: contrast(40%);*/
   border: 10px dotted #000000;
 }
 
+img:hover{
+  filter: contrast(.3);
+}
 p{
   font-family: 'Cinzel', serif;
   background: #f9a91a;
   margin: 2px;
   padding: 0px;
   border-radius: 5px;
+  top:50px;
+}
+
+.text{
+  position: relative;
+  top: -30px;
 }
 .text:hover{
   background-color: #000000;
