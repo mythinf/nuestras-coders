@@ -25,9 +25,12 @@ img{
   width: 200px;
   height: 200px;
   margin: 5px;
-  -webkit-filter: contrast(50%);
-  border-radius: 100px;
+  /*-webkit-filter: contrast(50%);*/
+  border-radius: 120px;
   border: 10px dotted #000000;
+}
+img:hover{
+  filter: opacity(.5);
 }
 
 p{
