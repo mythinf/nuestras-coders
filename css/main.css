@@ -2,3 +2,11 @@ body{
   background: #FFE4C4;
   text-align: center;
 }
+
+img{
+  width: 300px;
+  height: 300px;
+}
+.foto{
+  display: inline-block;
+}
