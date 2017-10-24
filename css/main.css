@@ -29,9 +29,14 @@ img{
   border-radius: 100px;
   border: 10px dotted #000000;
 }
+
 p{
   background: orange;
   margin: 2px;
   padding: 0px;
   border-radius: 5px;
+}
+.text:hover{
+  background-color: #000000;
+  color: #fff;
 }
